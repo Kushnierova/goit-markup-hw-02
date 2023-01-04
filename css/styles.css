@@ -8,12 +8,26 @@
 .link {
   text-decoration: none;
 }
-
+a{
+  text-decoration: none;
+  color: var(--accent-color);
+  }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--accent-color);
 }
+
 /* =================================== COMPONENTS ===================================*/
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .section-description {
   font-size: 16px;
   line-height: 1.5;
@@ -80,7 +94,7 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
 }
 
 .studio-theme-dark {
@@ -91,7 +105,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
 }
 .contact-link {
   font-style: normal;
