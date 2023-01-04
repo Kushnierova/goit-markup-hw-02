@@ -1,173 +1,169 @@
-:root{
-  --accent-color: #404BBF
+:root {
+  --accent-color: red;
 }
 
-.list{
+.list {
   list-style: none;
 }
-.link{
+.link {
   text-decoration: none;
 }
-body{
-  font-family: 'Roboto', sans-serif;
+.link:visited{
+  color: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--accent-color);
+  background-color: #ffffff;
 }
 /* =================================== COMPONENTS ===================================*/
-.section-description{
-  font-weight: 400;
+.section-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
 }
-.section-description-theme-dark{
-  color: #E7E9FC;
+.section-description-theme-dark {
+  color: #e7e9fc;
 }
-.section-description-theme-light{
-    color: #434455;
-}
-
-.section-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
+.section-description-theme-light {
+  color: #434455;
 }
 
-.suptitle{
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
-.btn-filter{
+
+.suptitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.btn-filter {
   padding: 12px 24px;
   width: 116px;
   height: 48px;
-  background: #F4F4FD;
-  border: 1px solid #E7E9FC;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
 
-   font-weight: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-    color: #4D5AE5;
+  color: #4d5ae5;
 }
-.btn-filter:hover{
-  background:var(--accent-color);
+.btn-filter:hover {
+  background: #404bbf;
 }
 /* =================================== /COMPONENTS ===================================*/
 
 /* =================================== HEADER ===================================*/
 
-/* .page-header{
-
+.web {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.studio {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.menu{
-
-} */
-
-/* .web{
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 24px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
+.studio-theme-dark {
+  color: #f4f4fd;
 }
-.studio{
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 24px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #2E2F42;
-} */
-.menu-link{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.contact-link{
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+.contact-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .menu-link:hover,
-.contact-link:hover{
-color: #404BBF;
-/* text-decoration: underline; */
+.contact-link:hover 
+{
+  color: #404bbf;
+  text-decoration: underline;
+}
+.menu-link:visited,
+.contact-link:visited 
+.studio:visited
+{
+  color: #404bbf;
 }
 /* =================================== /HEADER ===================================*/
 
-/* INDEX */
 /* =================================== HERO =================================== */
 
-.hero{
-    background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
+.hero {
+  background-color: var(--accent-color);
+  width: 1440px;
+  height: 600px;
 }
-.main-title{
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
-.btn-order{
+.btn-order {
   width: 169px;
-height: 56px;
-  background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  height: 56px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
-.btn-order:hover{
-  background: #404BBF;
+.btn-order:hover {
+  background: #404bbf;
 }
 
 /* =================================== /HERO =================================== */
 /* =================================== FEATURES ===================================  */
 
-
 /* =================================== /FEATURES ===================================  */
 /* =================================== WE DOING ===================================*/
 /* =================================== /WE DOING ===================================*/
 /* =================================== TEAM ===================================*/
+.team {
+  background: #f4f4fd;
+}
+
 /* =================================== /TEAM ===================================*/
 /* =================================== FOOTER ===================================*/
-footer{
-    background-color: #2E2F42;
+footer {
+  background-color: var(--accent-color);
 }
 /* =================================== /FOOTER ===================================*/
