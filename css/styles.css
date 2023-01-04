@@ -1,5 +1,5 @@
 :root {
-  --accent-color: red;
+  --accent-color: #2E2F42;
 }
 
 .list {
@@ -8,9 +8,7 @@
 .link {
   text-decoration: none;
 }
-.link:visited{
-  color: none;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--accent-color);
