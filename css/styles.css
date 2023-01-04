@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #2E2F42;
+  --accent-color: #2e2f42;
 }
 
 .list {
@@ -101,8 +101,7 @@ body {
   color: #434455;
 }
 .menu-link:hover,
-.contact-link:hover 
-{
+.contact-link:hover {
   color: #404bbf;
   text-decoration: underline;
 }
