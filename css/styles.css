@@ -1,5 +1,8 @@
 :root {
   --accent-color: #2e2f42;
+  --btn-background-color: #4d5ae5;
+  --focus-hover-color:#404bbf;
+  --background-light-color:#f4f4fd;
 }
 
 .list {
@@ -14,22 +17,14 @@ a{
   }
 body {
   font-family: "Roboto", sans-serif;
+    font-size: 16px;
   color: var(--accent-color);
 }
 
 /* =================================== COMPONENTS ===================================*/
-h1,
-h2,
-h3,
-h4,
-ul,
-p {
-  margin: 0;
-  padding: 0;
-}
+
 
 .section-description {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -55,29 +50,11 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.btn-filter {
-  padding: 12px 24px;
-  width: 116px;
-  height: 48px;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-}
-.btn-filter:hover {
-  background: #404bbf;
-}
 /* =================================== /COMPONENTS ===================================*/
 
 /* =================================== HEADER ===================================*/
-
+/* =================================== LOGO ===================================*/
 .web {
   font-family: "Raleway";
   font-weight: 800;
@@ -94,29 +71,26 @@ p {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* color: var(--accent-color); */
 }
 
 .studio-theme-dark {
   color: #f4f4fd;
 }
+/* =================================== /LOGO ===================================*/
 .menu-link {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* color: var(--accent-color); */
 }
 .contact-link {
   font-style: normal;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .menu-link:hover,
 .contact-link:hover {
-  color: #404bbf;
+  color:var(--focus-hover-color);
   text-decoration: underline;
 }
 /* =================================== /HEADER ===================================*/
@@ -139,12 +113,11 @@ p {
 .btn-order {
   width: 169px;
   height: 56px;
-  background: #4d5ae5;
+  background:var(--btn-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
@@ -153,7 +126,7 @@ p {
   cursor: pointer;
 }
 .btn-order:hover {
-  background: #404bbf;
+  background: var(--focus-hover-color);
 }
 
 /* =================================== /HERO =================================== */
@@ -164,7 +137,7 @@ p {
 /* =================================== /WE DOING ===================================*/
 /* =================================== TEAM ===================================*/
 .team {
-  background: #f4f4fd;
+  background: var(--background-light-color);
 }
 
 /* =================================== /TEAM ===================================*/
@@ -173,3 +146,28 @@ footer {
   background-color: var(--accent-color);
 }
 /* =================================== /FOOTER ===================================*/
+
+/* =================================== PORTFOLIO===================================*/
+
+/* =================================== FILTER ===================================*/
+.btn-filter {
+  padding: 12px 24px;
+  width: 116px;
+  height: 48px;
+  background: var(--background-light-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--btn-background-color);
+}
+.btn-filter:hover {
+  background: var(--focus-hover-color);
+}
+/* =================================== /FILTER ===================================*/
+/* =================================== CARDS =================================== */
+/* =================================== /CARDS =================================== */
