@@ -3,6 +3,7 @@
   --btn-background-color: #4d5ae5;
   --focus-hover-color: #404bbf;
   --background-light-color: #f4f4fd;
+  --simple-white: #ffffff;
 }
 .list {
   list-style: none;
@@ -31,9 +32,7 @@ body {
 
 /* =================================== COMPONENTS ===================================*/
 
-.section-description {
-  letter-spacing: 0.02em;
-}
+
 .section-description-theme-dark {
   color: #e7e9fc;
 }
@@ -71,7 +70,7 @@ body {
 }
 
 .studio-footer {
-  color: #f4f4fd;
+  color: var(--background-light-color);
 }
 /* =================================== /LOGO ===================================*/
 .menu-link {
@@ -99,7 +98,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  color: #ffffff;
+  color: var(--simple-white);
 }
 .btn-order {
   width: 169px;
@@ -109,7 +108,7 @@ body {
 
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: var(--simple-white);
 }
 .btn-order:hover {
   background: var(--focus-hover-color);
@@ -149,7 +148,9 @@ footer {
   color: var(--btn-background-color);
 }
 .btn-filter:hover {
+  
   background: var(--focus-hover-color);
+  color: var(--simple-white);
 }
 /* =================================== /FOOLTER ===================================*/
 /* =================================== CARDS =================================== */
