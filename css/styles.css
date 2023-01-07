@@ -1,31 +1,37 @@
 :root {
   --accent-color: #2e2f42;
   --btn-background-color: #4d5ae5;
-  --focus-hover-color:#404bbf;
-  --background-light-color:#f4f4fd;
+  --focus-hover-color: #404bbf;
+  --background-light-color: #f4f4fd;
 }
-
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
-}
-a{
-  text-decoration: none;
   color: var(--accent-color);
-  }
+}
+.button {
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
 body {
   font-family: "Roboto", sans-serif;
-    font-size: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 
 /* =================================== COMPONENTS ===================================*/
 
-
 .section-description {
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .section-description-theme-dark {
@@ -40,7 +46,6 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -48,14 +53,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 /* =================================== /COMPONENTS ===================================*/
 
 /* =================================== HEADER ===================================*/
 /* =================================== LOGO ===================================*/
-.web {
+.logo-link {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -64,34 +68,24 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.studio {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.studio-header {
+  color: var(--accent-color);
 }
 
-.studio-theme-dark {
+.studio-footer {
   color: #f4f4fd;
 }
 /* =================================== /LOGO ===================================*/
 .menu-link {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 .contact-link {
   font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 .menu-link:hover,
 .contact-link:hover {
-  color:var(--focus-hover-color);
-  text-decoration: underline;
+  color: var(--focus-hover-color);
 }
 /* =================================== /HEADER ===================================*/
 
@@ -107,23 +101,17 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .btn-order {
   width: 169px;
   height: 56px;
-  background:var(--btn-background-color);
+  background: var(--btn-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 
-  font-weight: 500;
-  line-height: 1.5;
   display: flex;
   align-items: center;
-  letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
 }
 .btn-order:hover {
   background: var(--focus-hover-color);
@@ -149,25 +137,22 @@ footer {
 
 /* =================================== PORTFOLIO===================================*/
 
-/* =================================== FILTER ===================================*/
+/* =================================== FOOTER ===================================*/
 .btn-filter {
   padding: 12px 24px;
   width: 116px;
   height: 48px;
   background: var(--background-light-color);
   border: 1px solid #e7e9fc;
-  border-radius: 4px;
 
-  font-weight: 500;
-  line-height: 1.5;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.04em;
+
   color: var(--btn-background-color);
 }
 .btn-filter:hover {
   background: var(--focus-hover-color);
 }
-/* =================================== /FILTER ===================================*/
+/* =================================== /FOOLTER ===================================*/
 /* =================================== CARDS =================================== */
 /* =================================== /CARDS =================================== */
